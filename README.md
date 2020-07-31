@@ -1,5 +1,6 @@
 # The Amazing rpkgMin
 
+[![Build Status](https://travis-ci.com/jananiravi/rpkg-min.svg?branch=master)](https://travis-ci.com/jananiravi/rpkg-min)
 ---
 
 [Jumping Rivers](https://jumpingrivers.com) are RStudio Certified partners. We are currently developing
