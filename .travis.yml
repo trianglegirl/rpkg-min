@@ -14,12 +14,12 @@ notifications:
     on_success: change
     on_failure: change
 
-branches:
+#branches:
   #except:
   #- legacy
   #- experimental
-  only:
-  - master
+  #only:
+  #- master
 
 before_cache: Rscript -e 'remotes::install_cran("pkgdown")'
 deploy:
