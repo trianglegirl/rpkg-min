@@ -1,26 +1,6 @@
 language: r
 cache: packages
 
-r:
-  - oldrel
-  - release
-  - devel
-
-notifications:
-  email:
-    recipients:
-     - janani@msu.edu
-     # - alerts+jananiravi21@gmail.com
-    on_success: change
-    on_failure: change
-
-#branches:
-  #except:
-  #- legacy
-  #- experimental
-  #only:
-  #- master
-
 before_cache: Rscript -e 'remotes::install_cran("pkgdown")'
 deploy:
   provider: script
